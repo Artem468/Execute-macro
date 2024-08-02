@@ -1,0 +1,16 @@
+[package]
+name = "execute_macro"
+authors = [
+    "https://github.com/Artem468"
+]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.70", features = ["default", "full", "fold", "extra-traits"] }
+quote = "1.0.36"
+proc-macro2 = "1.0.86"
+
